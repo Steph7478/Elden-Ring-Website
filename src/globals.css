@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Old London';
+  src: url('src/assets/fonts/oldlondon/Oldon.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Old London';
+  src: url('src/assets/fonts/oldlondon/Oldona.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Old London';
+  src: url('src/assets/fonts/oldlondon/OldLondon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Old London';
+  src: url('src/assets/fonts/oldlondon/OldLondonAlternate.ttf')
+    format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+@layer components {
+  h2 {
+    @apply font-old-london text-6xl font-bold text-light-yellow;
+  }
+
+  h3 {
+    @apply font-dm-serif-display text-light-yellow;
+  }
+
+  p {
+    @apply font-dm-serif-display text-sm text-gray-400;
+  }
+
+  button {
+    @apply border-2 border-light-yellow bg-orange-red p-2 font-della hover:scale-105 hover:border-yellow-200 hover:bg-red-900;
+  }
+
+  .characters {
+    @apply scale-[70%] transition-all;
+  }
+
+  .first-slide {
+    @apply scale-100;
+  }
+
+  .no-left,
+  .no-right,
+  .hidden {
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+  .slick-prev::before {
+    display: none;
+  }
+
+  .slick-next::before {
+    display: none;
+  }
+}
