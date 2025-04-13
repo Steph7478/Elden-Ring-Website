@@ -47,5 +47,5 @@ export default {
     },
   },
 
-  plugins: [], // Plugins do Tailwind
+  plugins: [],
 }

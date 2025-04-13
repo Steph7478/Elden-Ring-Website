@@ -4,29 +4,28 @@
 
 @font-face {
   font-family: 'Old London';
-  src: url('src/assets/fonts/oldlondon/Oldon.otf') format('opentype');
+  src: url('/fonts/oldlondon/Oldon.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Old London';
-  src: url('src/assets/fonts/oldlondon/Oldona.otf') format('opentype');
+  src: url('/fonts/oldlondon/Oldona.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Old London';
-  src: url('src/assets/fonts/oldlondon/OldLondon.ttf') format('truetype');
+  src: url('/fonts/oldlondon/OldLondon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Old London';
-  src: url('src/assets/fonts/oldlondon/OldLondonAlternate.ttf')
-    format('truetype');
+  src: url('/fonts/oldlondon/OldLondonAlternate.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
