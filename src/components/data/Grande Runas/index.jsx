@@ -1,7 +1,7 @@
 export const grandeRunas = [
   {
     name: 'Gran Runa de Godrick',
-    img: 'src/assets/images/Items/Gran_Runa_de_Godrick.webp',
+    img: '/public/images/Items/Gran_Runa_de_Godrick.webp',
     description:
       'Gran runa del portador de esquirlas Godrick, carente de bendición. Busca la torre sagrada de Necrolimbo, al final del gran puente junto al Castillo de Velo Tormentoso.\n Una Gran Runa del portador de esquirlas Godrick. Sus bendiciones aumentan todos los atributos. Esta Gran Runa se conoce como el anillo de anclaje y se encontraba en el centro del Círculo de Elden. Los primeros semidioses fueron del Señor del Círculo Godfrey y sus descendientes, el linaje dorado.',
     effect:
@@ -11,7 +11,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de los Nonatos',
-    img: 'src/assets/images/Items/Gran_Runa_de_los_Nonatos.webp',
+    img: '/public/images/Items/Gran_Runa_de_los_Nonatos.webp',
     description:
       'Huevo ámbar custodiado por Rennala, la Reina de la Luna Llena. Gran Runa de semidioses sin nacer. Perfecciona a aquellos que han renacido. Los hijos renacidos de Rennala fueron todos frágiles y su vida efímera. Seres imperfectos, cada uno de ellos.',
     effect:
@@ -21,7 +21,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de Rykard',
-    img: 'src/assets/images/Items/Gran_Runa_de_Rykard.webp',
+    img: '/public/images/Items/Gran_Runa_de_Rykard.webp',
     description:
       'Gran Runa del portador de esquirlas Rykard, carente de bendición. Busca la torre sagrada occidental de Altus, que se encuentra sobre el precipicio en la costa suroeste de Leyndell. Una Gran Runa del portador de esquirlas Rykard. Sus bendiciones restauran PS al derrotar enemigos. Rykard era uno de los hijos de Rennala y Radagon, y se convirtió en semidió sadoptivo tras la unión de Radagon con la Reina Márika.',
     effect:
@@ -31,7 +31,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de Radahn',
-    img: 'src/assets/images/Items/Gran_Runa_de_Radahn.webp',
+    img: '/public/images/Items/Gran_Runa_de_Radahn.webp',
     description:
       'Gran runa del portador de esquirlas Radahn, carente de bendición. Busca la torre sagrada de Caelid, que se encuentra sobre el precipicio en la costa de Montedrago.\n Una Gran Runa del portador de esquirlas Radahn. Sus bendiciones aumentan los PS, PC y resistencia máximos. Radahn era uno de los hijos de Rennala y Radagon, y se convirtió en semidiós adoptivo tras la unión de Radagon con la Reina Márika.',
     effect:
@@ -40,7 +40,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de Mohg',
-    img: 'src/assets/images/Items/Gran_Runa_de_Mohg.webp',
+    img: '/public/images/Items/Gran_Runa_de_Mohg.webp',
     description:
       'Gran Runa del portador de esquirlas Mohg, carente de bendición. Busca la torre sagrada oriental de Altus, que se encuentra más allá del puente enel distrito oriental de Leyndell. Una Gran Runa del portador de esquirlas Mohg. Concede una bendición de sangre a los espectros invocados y ofrece una Gran Runa Espectral al llevar a cabo una invasión con éxito. Mohg y Morgott eran gemelos, por lo que sus grandes runas son similares.\n',
     effect:
@@ -50,7 +50,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de Malenia',
-    img: 'src/assets/images/Items/Gran_Runa_de_Malenia.webp',
+    img: '/public/images/Items/Gran_Runa_de_Malenia.webp',
     description:
       'Gran Runa de la portadora de esquirlas Malenia, carente de bendición. Busca la torre sagrada solitaria, que se encuentra más allá del gran puente perdido.\n Una Gran Runa de la portadora de esquirlas Malenia. La bendición de esta runa semiputrefacta reduce el poder de curación del vial de lágrimas carmesí. Aún así, debido al espíritu de resistencia de Malenia, los ataques realizados inmediatamente después de recibir daño recuperarán parcialmente los PS.',
     effect:
@@ -60,7 +60,7 @@ export const grandeRunas = [
   },
   {
     name: 'Gran Runa de Morgott',
-    img: 'src/assets/images/Items/Gran_Runa_de_Morgott.webp',
+    img: '/public/images/Items/Gran_Runa_de_Morgott.webp',
     description:
       'Gran Runa del portador de esquirlas Morgott, carente de bendición. Busca la torre sagrada oriental de Altus, que se encuentra más allá del gran puente en el distrito oriental de Leyndell.\n Una Gran Runa del portador de esquirlas Morgott. Sus bendiciones aumentan considerablemente los PS máximos.',
     effect:

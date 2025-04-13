@@ -9,12 +9,8 @@ import { cardData } from '../../../../components/data/Personajes/index'
 export default function Cards() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const sliderRef = useRef(null)
-  const [prevArrowImg, setPrevArrowImg] = useState(
-    '/src/assets/svg/arrowprev.png'
-  )
-  const [nextArrowImg, setNextArrowImg] = useState(
-    '/src/assets/svg/arrownext.png'
-  )
+  const [prevArrowImg, setPrevArrowImg] = useState('/public/svg/arrowprev.png')
+  const [nextArrowImg, setNextArrowImg] = useState('/public/svg/arrownext.png')
   const navigate = useNavigate()
 
   let goToPrev = () => {
@@ -55,15 +51,15 @@ export default function Cards() {
 
   useEffect(() => {
     if (currentSlide === 0) {
-      setPrevArrowImg('/src/assets/svg/prevgrayarrow.png')
+      setPrevArrowImg('/public/svg/prevgrayarrow.png')
     } else {
-      setPrevArrowImg('/src/assets/svg/arrowprev.png')
+      setPrevArrowImg('/public/svg/arrowprev.png')
     }
 
     if (currentSlide === cardData.length - 1) {
-      setNextArrowImg('/src/assets/svg/nextgrayarrow.png')
+      setNextArrowImg('/public/svg/nextgrayarrow.png')
     } else {
-      setNextArrowImg('/src/assets/svg/arrownext.png')
+      setNextArrowImg('/public/svg/arrownext.png')
     }
   }, [currentSlide])
 

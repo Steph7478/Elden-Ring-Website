@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 export default function Modal({ modalContent, closeModal }) {
   const imgClass =
-    modalContent.imgSrc === '/src/assets/images/Guides/gopen3.jpg' ||
-    modalContent.imgSrc === '/src/assets/images/Guides/gopen4.jpg'
+    modalContent.imgSrc === '/public/images/Guides/gopen3.jpg' ||
+    modalContent.imgSrc === '/public/images/Guides/gopen4.jpg'
       ? 'object-center'
       : 'object-bottom'
 

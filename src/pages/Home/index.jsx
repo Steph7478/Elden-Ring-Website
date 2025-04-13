@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="bg-home1 h-full w-full bg-cover bg-no-repeat">
+      <div className="h-full w-full bg-home1 bg-cover bg-no-repeat">
         <div className="flex flex-col items-center justify-center py-20 text-center">
           <h2 className="mb-20">La orden borada ha caído</h2>
           <p className="w-[49%] text-center">
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/src/assets/images/Decorations/middle.png"
+          src="/public/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 
@@ -47,13 +47,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-home2 flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat text-center">
+      <div className="flex flex-col items-center justify-center bg-home2 bg-cover bg-center bg-no-repeat text-center">
         <h2 className="pb-10 pt-20">Objetos</h2>
         <div className="mb-20 flex border-2 border-light-yellow bg-dark-brown sm:w-[400px] sm:flex-col md:min-h-[310px] md:w-[725px] md:flex-row">
           <div className="flex items-center justify-center sm:w-full sm:pt-14 md:w-[43%] md:p-0 md:px-10">
             <img
               className="border-2 border-light-yellow bg-stone-900 object-contain sm:w-[280px] md:h-[240px] md:w-[240px] md:justify-self-center"
-              src="/src/assets/images/Items/flask-crimson.png"
+              src="/public/images/Items/flask-crimson.png"
               alt="Frasco"
             />
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/src/assets/images/Decorations/middle.png"
+          src="/public/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="flex h-max sm:w-[48%] md:w-[38%] lg:w-[40%]">
             <img
               className="min-h-[314px] object-cover"
-              src="/src/assets/images/News/news.png"
+              src="/public/images/News/news.png"
               alt="Frasco"
             />
           </div>
