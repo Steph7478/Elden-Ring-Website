@@ -27,7 +27,7 @@ export default function Header() {
       <div className="relative flex items-center justify-between px-4 lg:justify-start lg:px-16">
         <NavLink to="/">
           <img
-            src="/public/images/Decorations/eldenring.webp"
+            src="/images/Decorations/eldenring.webp"
             alt="home"
             className="ml-20 mr-20 w-32 scale-125 lg:w-40"
           />
