@@ -1,7 +1,7 @@
 export const lagrimasDeCristal = [
   {
     name: 'Lágrima de cristal de fuerza',
-    img: '/public/images/Items/L_fuerza.webp',
+    img: '/images/Items/L_fuerza.webp',
     description:
       'Una lágrima de cristal formada lentamente con el paso de los años allá donde la abundancia del Árbol Áureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido aumenta temporalmente la fuerza.',
     effect: 'En mezcla milagrosa, aumenta un tiempo la fuerza.',
@@ -10,7 +10,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal de inteligencia',
-    img: '/public/images/Items/L_inteligencia.webp',
+    img: '/images/Items/L_inteligencia.webp',
     description:
       'Una lágrima de cristal formada lentamente con el paso de los años allá donde la abundancia del Árbol Aureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido aumenta temporalmente la inteligencia.',
     effect: 'En mezcla milagrosa, aumenta un tiempo la inteligencia.',
@@ -19,7 +19,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal de destreza',
-    img: '/public/images/Items/L_destreza.webp',
+    img: '/images/Items/L_destreza.webp',
     description:
       'Una lágrima de cristal formada lentamente con el paso de los años allá donde la abundancia del Árbol Aureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido aumenta temporalmente la destreza.',
     effect: 'En mezcla milagrosa, aumenta un tiempo la destreza.',
@@ -27,7 +27,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal de fé',
-    img: '/public/images/Items/L_fe.webp',
+    img: '/images/Items/L_fe.webp',
     description:
       'Una lágrima de cristal formada lentamente con el paso de los años allá donde la abundancia del Árbol Aureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido aumenta temporalmente la fe.',
     effect: 'En mezcla milagrosa, aumenta temporalmente la fe.',
@@ -36,7 +36,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal cerúleo',
-    img: '/public/images/Items/L_ceruleo.webp',
+    img: '/images/Items/L_ceruleo.webp',
     description:
       'Una lágrima de cristal formada lentamente con el paso de los años allá donde la abundancia del Árbol Aureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido restaura la mitad de los PC máximos.',
     effect: 'En mezcla milagrosa, restaura la mitad de los PC totales.',
@@ -45,7 +45,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal carmesi',
-    img: '/public/images/Items/L_carmesi.webp',
+    img: '/images/Items/L_carmesi.webp',
     description:
       'Una lágrima de cristsal formada lentamente con el paso de los años allá donde la abundancia del Árbol Áureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido restaura la mitad de los PS máximos.',
     effect: 'En mezcla milagrosa, restaura la mitad de PS.',
@@ -54,7 +54,7 @@ export const lagrimasDeCristal = [
   },
   {
     name: 'Lágrima de cristal verde derramada',
-    img: '/public/images/Items/L_verdederramada.webp',
+    img: '/images/Items/L_verdederramada.webp',
     description:
       'Una lágrima de cristal formada lentamete con el paso de los años allá donde la abundancia del Árbol Aureo caía sobre el suelo. Puede mezclarse en un vial de médika milagrosa. El brebaje obtenido aumenta temporalmente la resistencia máxima.',
     effect: 'En mezcla milagrosa, aumenta un tiempo la resistencia.',

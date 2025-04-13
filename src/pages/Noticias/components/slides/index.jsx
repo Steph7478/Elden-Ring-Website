@@ -8,8 +8,8 @@ import { News } from '../../../../components/data/News/index'
 export default function SlidesNews() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const sliderRef = useRef(null)
-  const [prevArrowImg, setPrevArrowImg] = useState('/public/svg/arrowprev.png')
-  const [nextArrowImg, setNextArrowImg] = useState('/public/svg/arrownext.png')
+  const [prevArrowImg, setPrevArrowImg] = useState('/svg/arrowprev.png')
+  const [nextArrowImg, setNextArrowImg] = useState('/svg/arrownext.png')
 
   const goToPrev = () => sliderRef.current.slickPrev()
   const goToNext = () => sliderRef.current.slickNext()
@@ -33,14 +33,12 @@ export default function SlidesNews() {
 
   useEffect(() => {
     setPrevArrowImg(
-      currentSlide === 0
-        ? '/public/svg/prevgrayarrow.png'
-        : '/public/svg/arrowprev.png'
+      currentSlide === 0 ? '/svg/prevgrayarrow.png' : '/svg/arrowprev.png'
     )
     setNextArrowImg(
       currentSlide === News.length - 3
-        ? '/public/svg/nextgrayarrow.png'
-        : '/public/svg/arrownext.png'
+        ? '/svg/nextgrayarrow.png'
+        : '/svg/arrownext.png'
     )
   }, [currentSlide])
 

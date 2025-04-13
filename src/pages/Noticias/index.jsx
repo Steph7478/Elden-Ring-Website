@@ -19,7 +19,7 @@ export default function Noticias() {
         <div className="relative my-10 flex max-w-[905px] items-center justify-center overflow-hidden sm:min-h-[300px] lg:min-h-[320px]">
           <div className="flex w-[50%]">
             <img
-              src="/public/images/News/newsone.png"
+              src="/images/News/newsone.png"
               alt=""
               className="flex w-full max-w-full pr-5 sm:mt-24 lg:mt-12"
             />
@@ -65,7 +65,7 @@ export default function Noticias() {
 
           <div className="w-[50%] justify-center">
             <img
-              src="/public/images/News/newstwo.png"
+              src="/images/News/newstwo.png"
               alt="Imagen del sorteo"
               className="flex w-full max-w-full pl-5 sm:mt-24 lg:mt-12"
             />
@@ -78,7 +78,7 @@ export default function Noticias() {
           Buscar más noticias
         </button>
         <img
-          src="/public/images/Decorations/guidedec.png"
+          src="/images/Decorations/guidedec.png"
           alt="#"
           className="mb-20 h-auto w-32"
         />

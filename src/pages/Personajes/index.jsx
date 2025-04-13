@@ -31,7 +31,7 @@ export default function Personajes() {
         <div className="flex h-auto w-2/3 flex-col items-center text-center">
           <h2 className="pt-7">{selectedCharacter?.name || ''}</h2>
           <img
-            src="/public/images/Decorations/guidedec.png"
+            src="/images/Decorations/guidedec.png"
             alt="#"
             className="h-auto w-32 pb-10 pt-5"
           />

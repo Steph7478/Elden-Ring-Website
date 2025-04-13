@@ -1,7 +1,7 @@
 export const objetosDeMisiones = [
   {
     name: 'Tonico del olvido',
-    img: '/public/images/Items/obj_tonico.webp',
+    img: '/images/Items/obj_tonico.webp',
     description:
       'Tónico en un pequeño frasco metálico. Elimina los recuerdos angustiosos y tristes. Un regalo del blasfemo Rykard para Lady Tanityh, quien por desgracia no pudo darle uso. "Mi señor, no podría haber mayor angustia que olvidarte.',
     effect: 'Tónico que elimina los recuerdos angustiosos y tristes.',
@@ -9,7 +9,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Amnios de serpiente',
-    img: '/public/images/Items/obj_amnios.webp',
+    img: '/images/Items/obj_amnios.webp',
     description:
       'Amnios del útero que albergó este pobre vástago no deseado fruto de un repulsivo ritual de parto, Permanece siempre húmedo y jamás llegará a secarse',
     effect:
@@ -19,7 +19,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Collar de Rya',
-    img: '/public/images/Items/obj_uva.webp',
+    img: '/images/Items/obj_uva.webp',
     description:
       'Collar que un granuja le robó a Rya. Presenta el relieve de una mujer de aspecto solemne procedente de tierras extranjeras. Parece albergar un gran significado para Rya.',
     effect: 'Collar de Rya, robado por un granuja.',
@@ -28,7 +28,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Uva Shabriri',
-    img: '/public/images/Items/obj_collar.webp',
+    img: '/images/Items/obj_collar.webp',
     description:
       'Un globo ocular amarillento y supurante de lo enfermizo. Por fuera está reseco y su interior es blando, como una gran uva demasiado madura. Dáselo a la doncella ciega para guiarla hasta la luz distante.',
     effect:
@@ -38,7 +38,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Carta de Irina',
-    img: '/public/images/Items/obj_carta.webp',
+    img: '/images/Items/obj_carta.webp',
     description:
       'Carta que te ha dado Irina dirigida a su padre, el comendador del Castillo de Morne. Se trata de un precioso pañuelo de seda ligeramente manchado de sangre. Pueden leerse varias palabras en la tela.',
     effect: 'Carta dirigida al comendador del castillo de Morne.',
@@ -46,7 +46,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Rey de los halcones tormentosos',
-    img: '/public/images/Items/obj_rey.webp',
+    img: '/images/Items/obj_rey.webp',
     description:
       'Cenizas de un halcón venerado como soberano en los días en los que los vientos de Velo Tormentoso aún soplaban con todas sus fuerzas. Sin embargo, este antiguo monarca es orgulloso y se niega a responder a la llamada de nadie.',
     effect: 'Cenizas de un halcón que se niega a ser invocado.',
@@ -55,7 +55,7 @@ export const objetosDeMisiones = [
   },
   {
     name: 'Recuerdo de las crisálidas',
-    img: '/public/images/Items/obj_recuerdo.webp',
+    img: '/images/Items/obj_recuerdo.webp',
     description:
       'Recuerdo dejado por las crisálidas sacrificadas en aras de los injertos. Se trata de un broche envuelto en terciopelo rojo y con manchas de sangre visibles. Unos espíritus de débil silueta tratan de comunicarte algo, pero sus voces no se escuchan.',
     effect: 'Broche envuelto en terciopelo rojo.\n Es para dárselo a Roderika.',

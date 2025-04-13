@@ -73,14 +73,14 @@ export default function Cards({ onCharacterSelect }) {
         id="btnprevarrow"
       >
         Prev
-        <img src="/public/svg/arrowprev.png" />
+        <img src="/svg/arrowprev.png" />
       </div>
       <div
         className="slick-next scale-150 cursor-pointer text-white md:mr-[5%] lg:mr-[10%]"
         onClick={goToNext}
         id="btnnextarrow"
       >
-        <img src="/public/svg/arrownext.png" />
+        <img src="/svg/arrownext.png" />
         Next
       </div>
     </div>

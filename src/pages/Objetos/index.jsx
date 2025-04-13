@@ -48,7 +48,7 @@ export default function Objetos() {
         </div>
 
         <img
-          src="/public/images/Decorations/middle.png"
+          src="/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 
@@ -75,7 +75,7 @@ export default function Objetos() {
         </div>
 
         <img
-          src="/public/images/Decorations/middle.png"
+          src="/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 

@@ -9,8 +9,8 @@ import { cardData } from '../../../../components/data/Personajes/index'
 export default function Cards() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const sliderRef = useRef(null)
-  const [prevArrowImg, setPrevArrowImg] = useState('/public/svg/arrowprev.png')
-  const [nextArrowImg, setNextArrowImg] = useState('/public/svg/arrownext.png')
+  const [prevArrowImg, setPrevArrowImg] = useState('/svg/arrowprev.png')
+  const [nextArrowImg, setNextArrowImg] = useState('/svg/arrownext.png')
   const navigate = useNavigate()
 
   let goToPrev = () => {
@@ -51,15 +51,15 @@ export default function Cards() {
 
   useEffect(() => {
     if (currentSlide === 0) {
-      setPrevArrowImg('/public/svg/prevgrayarrow.png')
+      setPrevArrowImg('/svg/prevgrayarrow.png')
     } else {
-      setPrevArrowImg('/public/svg/arrowprev.png')
+      setPrevArrowImg('/svg/arrowprev.png')
     }
 
     if (currentSlide === cardData.length - 1) {
-      setNextArrowImg('/public/svg/nextgrayarrow.png')
+      setNextArrowImg('/svg/nextgrayarrow.png')
     } else {
-      setNextArrowImg('/public/svg/arrownext.png')
+      setNextArrowImg('/svg/arrownext.png')
     }
   }, [currentSlide])
 

@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/public/images/Decorations/middle.png"
+          src="/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="flex items-center justify-center sm:w-full sm:pt-14 md:w-[43%] md:p-0 md:px-10">
             <img
               className="border-2 border-light-yellow bg-stone-900 object-contain sm:w-[280px] md:h-[240px] md:w-[240px] md:justify-self-center"
-              src="/public/images/Items/flask-crimson.png"
+              src="/images/Items/flask-crimson.png"
               alt="Frasco"
             />
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/public/images/Decorations/middle.png"
+          src="/images/Decorations/middle.png"
           className="justify-self-center overflow-hidden sm:w-[500px] md:w-[600px] lg:w-[800px]"
         />
 
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="flex h-max sm:w-[48%] md:w-[38%] lg:w-[40%]">
             <img
               className="min-h-[314px] object-cover"
-              src="/public/images/News/news.png"
+              src="/images/News/news.png"
               alt="Frasco"
             />
           </div>
