@@ -1,15 +1,1 @@
-HEAD
-
-# Elden-Ring-Website
-
-Design for Elden Ring
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-  e2d7be9 (initial commit)
+This project was the first time I created a website, so the methods I used aren't the best and the site isn't responsive. I used it as a test to try out frameworks, new tools, and so on. I gained a lot of experience from it as my first project and was able to better understand how React works.
